@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+<meta charset="UTF-8">
+    <title>Strona główna - verukyy.pl</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="logo.jpg">
+<meta content="dark" name="color-scheme">   
+<style>
+/* ciasteczka cookis*/
+.cookie {
+  background-color: rgba(0, 0, 128, 0.50); /* ciemno niebieski kolor z przezroczystością 45% */
+  color: white; /* kolor tekstu */
+  padding: 10px; /* wewnętrzny odstęp */
+  border-radius: 5px; /* zaokrąglenie rogów */
+  position: fixed; /* pozycja stała */
+  bottom: 0; /* odstęp od dołu */
+  left: 0; /* odstęp od lewej */
+  width: 100%; /* szerokość */
+}
+
+.cookie a {
+  color: white; /* kolor linków */
+  text-decoration: underline; /* podkreślenie linków */
+}
+
+
+
+
+/* Ogólne style dla wszystkich ekranów */
+html, body {
+  height: 99%;
+}       
+body {
+  background: linear-gradient(rgba(0,0,51,0.7), rgba(0,0,51,0.7)), url("one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;           
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Górne menu */
+#top-menu {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#top-menu h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#top-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#top-menu li {
+  margin-right: 10px;
+}
+
+#top-menu li:last-child {
+  margin-right: 0;
+}
+
+#top-menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#top-menu a:hover {
+  background-color: #555;
+}
+
+/* Pozostała zawartość strony */
+#content {
+  padding: 20px;
+}
+
+/* Style dla małych ekranów */
+@media screen and (max-width: 600px) {
+  body {
+    background-size: contain;
+  }
+
+  #top-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #top-menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+
+#top-menu {
+  background-color: rgba(0, 0, 102, 0.49) !important;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+		#audio-player {
+			background-color: #0000FF;
+			width: 400px;
+			padding: 20px;
+			margin: 0 auto;
+			border-radius: 10px;
+			text-align: center;
+		}
+		#audio-player button {
+			background-color: #0000FF;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			margin: 10px;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+</style>
+
+
+
+<!--<style>
+      html, body {
+        height: 99%;
+      }       
+ body {
+   background-image: url("one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;           
+ margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Górne menu */
+        #top-menu {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        
+        #top-menu h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        #top-menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        #top-menu li {
+            margin-right: 10px;
+        }
+        
+        #top-menu li:last-child {
+            margin-right: 0;
+        }
+        
+        #top-menu a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+        }
+        
+        #top-menu a:hover {
+            background-color: #555;
+        }
+        
+        /* Pozostała zawartość strony */
+        #content {
+            padding: 20px;
+        }
+
+button {
+  background-color: darkred;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: indianred;
+}
+    </style> text="aqua"-->
+</head>
+<body  style="background-image: url('two.jpg');">
+    <!-- Górne menu -->
+    <div id="top-menu">
+        <h1>Verukyy.pl - Strona Sebastiana W.</h1>
+        <ul>
+            <li><a href="#">Strona Główna</a></li>
+           <li><a href="verukyyclear.html">VerukyyClear</a></li>
+           <li><a href="o-tworcy.html">O Twórcy</a></li>    
+            <li><a href="kontakt.html">Kontakt</a></li>        
+
+
+</ul>
+    </div>
+    <center>
+    <!-- Pozostała zawartość strony -->
+    <div id="content">
+<img  src="logos.jpg" alt="logo">        
+<h2>Witaj na mojej stronie!</h2>
+
+<!--<audio controls src="5gwiastkowyhotel-mateo.mp3"></audio>-->
+</body>
+
+<!--cookis-->
+<style>
+    #cookie-message {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 10px;
+        background-color: #1A1C3E; /* zmiana koloru tła na ciemny niebieski */
+        color: #fff;
+        text-align: center;
+        z-index: 9999;
+        opacity: 0.9;
+    }
+
+    #cookie-message button {
+        background-color: #fff;
+        color: #333;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+</style>	
+
+<div id="cookie-message">
+		<p>Ta strona korzysta z plików cookies. Korzystając ze strony wyrażasz zgodę na ich używanie zgodnie z <a href="politykaprywatnosci.txt">polityką prywatności</a>.</p>
+		<button onclick="closeCookieMessage()">OK</button>
+	</div>
+	
+	<script>
+		function closeCookieMessage() {
+			document.getElementById("cookie-message").style.display = "none";
+		}
+	</script>
+<!--img-->
+<!--<a href=""><img width="64" height="64" src="img/insta-logo.png" alt="Instagram"></a>Instagram--> 
+</div>
+</body>
+</html>

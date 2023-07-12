@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">      
+<meta charset="UTF-8">
+    <title>Kontakt - verukyy.pl</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="logo.jpg">
+<meta content="dark" name="color-scheme">    
+<style>
+/* Ogólne style dla wszystkich ekranów */
+html, body {
+  height: 99%;
+}       
+body {
+  background: linear-gradient(rgba(0,0,51,0.7), rgba(0,0,51,0.7)), url("one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;           
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Górne menu */
+#top-menu {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#top-menu h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#top-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#top-menu li {
+  margin-right: 10px;
+}
+
+#top-menu li:last-child {
+  margin-right: 0;
+}
+
+#top-menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#top-menu a:hover {
+  background-color: #555;
+}
+
+/* Pozostała zawartość strony */
+#content {
+  padding: 20px;
+}
+
+/* Style dla małych ekranów */
+@media screen and (max-width: 600px) {
+  body {
+    background-size: contain;
+  }
+
+  #top-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #top-menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+
+#top-menu {
+  background-color: rgba(0, 0, 102, 0.49) !important;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+</style>
+
+</head>
+<body text="aqua" style="background-image: url('onee.jpg');">
+    <!-- Górne menu -->
+    <div id="top-menu">
+        <h1>Verukyy.pl - Strona Sebastiana W.</h1>
+        <ul>
+            <li><a href="index.html">Strona Główna</a></li>
+<li><a href="o-tworcy.html">O Twórcy</a></li>            
+<!--<li><a href="verukyysearch/index.html">Wyszukiwarka</a></li>-->
+            <li><a href="verukyychat.html">VerukyyChat</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="verukyyclear.html">VerukyyClear</a></li>
+            <li><a href="dev.txt">Devs</a></li>
+        </ul>
+    </div>
+    <center>
+    <!-- Pozostała zawartość strony -->
+    <div id="content">
+        <h2>Kontakt</h2>
+ <p>E:mail sebastianrobertwanat@int.pl</p>
+    </div>
+</body>
+</html>

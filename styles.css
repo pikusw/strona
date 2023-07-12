@@ -1,0 +1,32 @@
+button {
+  background-color: red; /* Kolor tła */
+  border: none; /* Brak obramowania */
+  color: white; /* Kolor tekstu */
+  padding: 10px 20px; /* Wielkość wypełnienia */
+  text-align: center; /* Wyśrodkowanie tekstu */
+  text-decoration: none; /* Brak podkreślenia tekstu */
+  display: inline-block; /* Wyświetlanie jako blok obok siebie */
+  font-size: 16px; /* Rozmiar czcionki */
+  margin: 5px; /* Margines między przyciskami */
+  cursor: pointer; /* Kursor zmienia się na "pointer" po najechaniu myszką */
+  border-radius: 5px; /* Zaokrąglenie rogów */
+  transition-duration: 0.3s; /* Czas trwania przejścia */
+}
+
+button:hover {
+  background-color: blue; /* Kolor tła po najechaniu myszką */
+  color: white; /* Kolor tekstu po najechaniu myszką */
+}
+
+
+
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+}
+
+
